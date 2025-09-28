@@ -1,0 +1,25 @@
+body{ margin:0;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+.topnav{
+    overflow:hidden;
+    background-color:aqua;
+}
+
+.topnav a{
+    float:left;
+    display:block;
+    color: brown;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(132, 193, 70);
+
+}
+
+.topnav a.active {
+    background-color: rgb(146, 60, 227);
+}
